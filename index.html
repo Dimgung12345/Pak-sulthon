@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <nav aria-label="Primary Navigation">
+                <div class="logo" tabindex="0">Portofolio saya</div>
+                <ul>
+                   <li><a href="#about">about</a></li>
+                   <li><a href="#skill">skill</a></li>
+                   <li><a href="Projedt">Project</a></li>
+                   <li><a href="#Contact">Contact</a></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" tabindex="0">
+
+        <section id="about" class="about-me" aria-label="About me section">
+            <h1>Hai Teman, Saya <strong>Dimas Agung Hidayatulloh</strong></h1>
+            <p>
+                Selamat datang di situs web Portofolio saya! Saya adalah seorang <strong>Murid di SMK PLUS PELITA NUSANTARA</strong> yang senang membuat apliksi web menggunakan <strong>HTML,CSS, dan JS</strong>.
+            </p>
+            <P>
+                Saya percaya bahwa teknologi adalah alat penting untuk membangun masa depan pendidikan yang lebih baik.
+            </P>
+        </section>
+
+        <section id="skills" aria-label="skills section">
+            <h2>skills</h2>
+            <div class="skills list" role="list">
+                <span class="skill" role="listitem">HTML</span>
+                <span class="skill" role="listitem">CSS</span>
+                <span class="skill" role="listitem">JS</span>
+                <span class="skill" role="listitem">Responsive Design</span>
+                <span class="skill" role="listitem">Git % Github</span>
+                <span class="skill" role="listitem">Bootstrap</span>
+            </div>
+        </section>
+
+        <section id="Project" aria-label="Project section">
+            <h2>Projects</h2>
+            <div class="Project-list">
+
+                <article class="Project-item" tabindex="0">
+                    <h3>Jam digital</h3>
+                    <p>
+                        Jam digital, Dibangun menggunakan HTML,CSS,Dan JS.
+                    </p>
+                    <a href="Jam Digital/jam.html" class="Project-link" target="_blank" rel="noopener">Lihat projek</a>
+                </article>
+
+                <article class="Project-item" tabindex="0">
+                    <h3>Portofolio Canva</h3>
+                    <p>
+                        Website Pribadi yang menampilkan profil, Dibangun dengan canva
+                    </p>
+                    <a href="https://www.canva.com/design/DAGM8vAiAus/JXEUuvbsdAiEfMdLxXUF-A/edit" class="Project-link" target="_blank" rel="noopener">Lihat projek</a>
+                </article>
+
+                <article class="Project-item" tabindex="0">
+                    <h3>Encode Decode Base64</h3>
+                    <p>
+                        Machine Encode Decode, Dibangun menggunakan HTML,CSS,Dan JS.
+                    </p>
+                    <a href="ed.html" class="Project-link" target="_blank" rel="noopener">Lihat projek</a>
+                </article>
+
+        <section id="Contact" aria-label="Contact section">
+            <h2>Call me</h2>
+            <form id="COntact-form" novalidate>
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="name" placeholder="Nama Anda" aria-label="Nama Anda" required>
+                <div class="eror" id="name-eror"></div>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Email Anda" aria-label="Email Anda" required>
+                <div class="error" id="email-error"></div>
+
+                <label for="message">Pesan</label>
+                <textarea name="message" id="message" rows="4" placeholder="Tulis Pesan anda ..." aria-label="Pesan Anda" required></textarea>
+                <div class="error" id="message-eror"></div>
+
+                <button type="submit" aria-label="Kirim pesan">Kirim Pesan</button>
+                <p class="succes-msg" id="succes-message" aria-live="polite"></p>
+            </form>
+        </section>
+            </div>
+
+    </main>
+
+    <footer>
+        &copy; 2026 Dimas Agung Hidayatulloh SMK PENUS
+        &copy; <source srcset="">
+    </footer>
+
+    <SCript src="script.js"></SCript>
+</body>
+</html>
