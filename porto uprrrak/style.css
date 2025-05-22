@@ -109,7 +109,11 @@ p {
     color: #6ca0f6;
     font-weight: 600;
 }
-
+#Contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
 form {
     display: flex;
     flex-direction: column;
